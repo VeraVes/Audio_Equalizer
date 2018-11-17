@@ -1,0 +1,27 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Аудио</title>
+	<link href="style.css" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="left-block" id="output">
+	</div><!--
+	--><div class = "right-block">
+		<div class="right-top-block">
+			<img class="waiting-img" id="imag" 	src = "Waiting.gif">
+			<div id="dropBox" class = "dropBox">Перетащите аудио сюда...
+			</div>
+ 			<input type="file" onchange="processFiles(this.files)"/>
+		</div>
+		<div class="right-middle-block" id = "rmb">
+		</div>
+		<div class="right-bottom-block">
+			<div class = "right-bottom-block__compos-name">Здесь будет название аудио</div>
+			<div class = "right-bottom-block__button play" id = "play"></div>
+			<div class = "right-bottom-block__button pause" id = "pause"></div>
+		</div>
+	</div>
+</body>
+</html>

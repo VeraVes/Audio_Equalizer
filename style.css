@@ -1,0 +1,101 @@
+.left-block {
+	width: 35%;
+	height: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid grey;
+	vertical-align: top;
+	min-height: 410px;
+}
+
+.right-block {
+	width: 65%;
+	height: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid grey;
+	vertical-align: top;
+	min-height: 410px;
+}
+
+.right-top-block{
+	height: 30%;
+	border: 1px solid grey;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.right-middle-block{
+	height: 50%;
+	border: 1px solid grey;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.right-bottom-block {
+	height: 20%;
+	border: 1px solid grey;
+	box-sizing: border-box;
+}
+
+table {
+	width: 95%;
+	border-collapse: collapse;
+	box-sizing: border-box;
+	margin: 5px auto;
+	text-align: center;
+}
+
+td {
+	border: 1px solid grey;
+}
+
+.dropBox {
+	height: 70%;
+	width: 96%;
+	margin: auto;
+	border: 2px dashed grey;
+	background-size: 100%;
+	text-align: center;
+}
+
+.right-bottom-block__compos-name {
+	width: 100%;
+	height: 20px;	
+	margin: 5px 0px 0px 5px;
+}
+
+.right-bottom-block__button {
+	display: inline-block;
+	background-image: url("Play.png");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	width: 40px;
+	height: 40px;
+	margin: 3px;
+}
+
+.play {
+	background-image: url("Play_br.png");
+}
+
+.play:hover {
+	opacity: 0.9;
+}
+
+.pause {
+	background-image: url("Pause_br.png");
+}
+
+.pause:hover {
+	opacity: 0.9;
+}
+
+.waiting-img {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	left:50%;
+	top: 20%;
+	display: none;
+}
